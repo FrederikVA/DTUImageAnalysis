@@ -148,7 +148,7 @@ io.show()
 
 Since the histogram functions takes 1D arrays as input, the function `ravel` is called to convert the image into a 1D array.
 
-The bin values of the histogram can also be stored by writing:
+The binary values of the histogram can also be stored by writing:
 
 ```python
 h = plt.hist(im_org.ravel(), bins=256)
@@ -217,6 +217,7 @@ io.show()
 a mask is created from the original image. 
 
 **Exercise 12:** *Where are the values 1 and where are they 0?*
+Values above 150 are white. Others are black (0)
 
 **Exercise 13:** *What does this piece of code do?*
 
