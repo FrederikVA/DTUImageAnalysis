@@ -81,7 +81,7 @@ Compute the covariance between the sepal length and the petal length and compare
 
 ### Exercise 4
 
-As with image analysis, it is very useful to get a graphical understanding of the data and what structures are hidden in the them. For this, we will use the seaborn Python package that also used the pandas package. Take a look at Appendix A, at the end of the document, for installation instructions.
+As with image analysis, it is very useful to get a graphical understanding of the data and what structures are hidden in them. For this, we will use the seaborn Python package that also used the pandas package. Take a look at Appendix A, at the end of the document, for installation instructions.
 
 Import *seaborn* and *pandas*:
 
@@ -95,8 +95,8 @@ Now let us get a closer look at the data structure using a *pairplot*:
 ```python
 plt.figure() # Added this to make sure that the figure appear
 # Transform the data into a Pandas dataframe
-d = pd.DataFrame(x, columns=[’Sepal length’, ’Sepal width’,
-							 ’Petal length’, ’Petal width’])
+d = pd.DataFrame(x, columns=['Sepal length', 'Sepal width',
+							 'Petal length', 'Petal width'])
 sns.pairplot(d)
 plt.show()
 ```
