@@ -88,6 +88,7 @@ Import *seaborn* and *pandas*:
 ```python
 import seaborn as sns
 import pandas as pd
+import matplotlib.pyplot as plt
 ```
 
 Now let us get a closer look at the data structure using a *pairplot*:
